@@ -1,0 +1,178 @@
+@media (max-width:1024px) and (min-width:768px){
+    .fondo{
+        height:100vh;
+    }
+
+    .SecMenus{
+        flex-direction: column;
+        margin: 5%;
+    }
+}
+
+@media (max-width:768px) and (min-width: 630px) {
+
+
+    .fondo{
+        height: 80vh;
+    }
+
+    .banner{
+        nav{
+            ul{
+               
+              
+              li{
+                display: none;
+                justify-content: center;
+                align-items: center;
+                
+              }    
+               
+            }
+        }
+
+
+    }
+
+    .logo{
+        padding: 5%;
+        margin: auto;   
+    }
+
+    .SecMenus{
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    .CardSection{
+        flex-direction: column;
+
+        .Sec6{
+            h2{
+               text-align: center;
+               font-size: $textMd;
+               margin: 3%;
+            }
+            p{
+               font-size: $textSm;
+               padding: 3%;
+            }
+    
+        }
+
+        .Sec7{
+            h3{
+                text-align: center;
+                margin: auto;
+            }
+        }
+
+        .imgagenSec8{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            
+            .Sec8{
+                
+                height: 25vh;
+                width: 50%;
+                clip-path: circle(30.2% at 48% 48%);
+                margin: 5%;
+            }
+        }
+    }
+}
+
+
+@media (max-width:630px) and (min-width: 260px){
+
+    .fondo{
+        height: 100vh;
+    }
+
+    .banner{
+        nav{
+            ul{
+               
+              
+              li{
+                display: none;
+                justify-content: center;
+
+                align-items: center;
+                
+              }    
+               
+            }
+        }
+
+
+    }
+
+    .logo{
+        padding: 5%;
+        margin: auto;   
+    }
+
+     .botonesheader{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+
+    .SecMenus{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    .Sec6{
+        h2{
+           text-align: center;
+           font-size: $textMd;
+           margin: 3%;
+        }
+        p{
+           font-size: $textSm;
+           padding: 3%;
+        }
+
+    }
+
+
+    .CardSection{
+        flex-direction: column;
+
+        .Sec7{
+            h3{
+                text-align: center;
+                margin: auto;
+            }
+        }
+      
+
+        .imgagenSec8{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+ 
+
+        .Sec8{
+            margin: 5%;
+            height: 20vh;
+            clip-path: circle(30.2% at 48% 48%);
+        }
+
+      }   
+    }
+
+    .Iconos{
+        display: none;
+    }
+
+}

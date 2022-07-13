@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+    }
+
+h1,
+h2,
+h3{
+    font-family: $MainFont;
+    color: $Maincolor;
+    margin: 10px 20px;
+}    
+
+h1{
+    font-size: $textXl;
+    font-weight: $boldhard;
+}
+
+h2{
+    font-size: $textLg;
+    font-weight: $bold;
+}
+
+h3{
+    font-size: $textMd;
+    font-weight: $light;
+}
+
+
+p{
+    font-family: $Secondaryfont;
+    font-size: $textMd;
+    font-weight: $light;
+    line-height: 1.4em;
+    color: $graycolortext;
+    margin: 5px 20px;
+}
+
